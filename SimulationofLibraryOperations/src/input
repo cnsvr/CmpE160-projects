@@ -1,0 +1,67 @@
+30
+1	P
+1	P
+1	P
+2	S
+3	1	1
+1	H
+1	H
+1	H
+1	H
+3	2	1
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+1	H
+3	3	1
+4	2	1
+3	3	1
+4	1	1
+3	3	1
+
+
+
+OUTPUT SHOULD BE:
+
+Created new book: Printed [id: 1]
+Created new book: Printed [id: 2]
+Created new book: Printed [id: 3]
+Created new member: Student [id: 1]
+The book [1] was borrowed by member [1]
+Created new book: Handwritten [id: 4]
+Created new book: Handwritten [id: 5]
+Created new book: Handwritten [id: 6]
+Created new book: Handwritten [id: 7]
+The book [2] was borrowed by member [1]
+Created new book: Handwritten [id: 8]
+Created new book: Handwritten [id: 9]
+Created new book: Handwritten [id: 10]
+Created new book: Handwritten [id: 11]
+Created new book: Handwritten [id: 12]
+Created new book: Handwritten [id: 13]
+Created new book: Handwritten [id: 14]
+Created new book: Handwritten [id: 15]
+Created new book: Handwritten [id: 16]
+Created new book: Handwritten [id: 17]
+Created new book: Handwritten [id: 18]
+Created new book: Handwritten [id: 19]
+Created new book: Handwritten [id: 20]
+Created new book: Handwritten [id: 21]
+Created new book: Handwritten [id: 22]
+borrowBook; Error: Member [1] has atleast one book due
+The book [2] was returned by member [1]: Fee: 0
+borrowBook; Error: Member [1] has atleast one book due
+The book [1] was returned by member [1]: Fee: 4
+The book [3] was borrowed by member [1]
+[books.Printed@42a57993, books.Printed@75b84c92, books.Printed@6bc7c054]
